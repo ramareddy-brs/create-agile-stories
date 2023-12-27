@@ -75,7 +75,7 @@ const updateList = (newStory, updatedList) => {
             ${issue.storyStatus === "open" ? "open" : "closed"}</span>
             </div>
             <div class="card-body">
-            <h3>Title : ${issue.title}</h3>
+            <h4>Title : ${issue.title}</h4>
             <p class="text-start pb-1">Assigned to : ${
               assignedToList[issue.assignedTo]
             }</p>
